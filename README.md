@@ -77,7 +77,7 @@ GET /api/chat/filter?videoId=VIDEO_ID&username=USERNAME
 `username`을 생략하면 전체 채팅을 반환합니다.
 
 ```text
-http://localhost:8080/api/chat/filter?videoId=EpZTqvUymgM&username=꽃동산다육이
+http://localhost:8080/api/chat/filter?videoId=EpZTqvUymgM&username=(사용자이름)
 ```
 
 ### Export To Excel
@@ -91,7 +91,7 @@ GET /api/chat/filter/excel?videoId=VIDEO_ID&username=USERNAME
 `username`을 생략하면 전체 채팅을 Excel로 저장합니다.
 
 ```text
-http://localhost:8080/api/chat/filter/excel?videoId=EpZTqvUymgM&username=꽃동산다육이
+http://localhost:8080/api/chat/filter/excel?videoId=EpZTqvUymgM&username=(사용자이름)
 ```
 
 ## Output Files
