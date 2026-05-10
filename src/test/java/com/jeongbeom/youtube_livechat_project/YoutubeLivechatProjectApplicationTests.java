@@ -3,7 +3,9 @@ package com.jeongbeom.youtube_livechat_project;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@SpringBootTest(properties = {
+		"spring.autoconfigure.exclude=org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration,org.springframework.boot.hibernate.autoconfigure.HibernateJpaAutoConfiguration"
+})
 class YoutubeLivechatProjectApplicationTests {
 
 	@Test
